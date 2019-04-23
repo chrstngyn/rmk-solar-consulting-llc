@@ -1,13 +1,11 @@
 ## We can keep website examples here.
 
-### You Are Fucking Awesome mama!
-
-###### Example websites:
+##### Example websites:
 
 1. http://californiasolarconsulting.com/
 
       
-###### The tabs I want are as follows: 
+##### The tabs I want are as follows: 
 * Home 
 * Solar Terms
 * Consulting Areas
@@ -21,3 +19,4 @@
 * About Us 
 * Contact Us 
       
+### You Are Fucking Awesome mama!
