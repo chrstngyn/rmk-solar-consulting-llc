@@ -6,4 +6,4 @@
 
 1. http://californiasolarconsulting.com/
 
-* I like this one. How difficult do you think it will be to re-create?
+      * I like this one. How difficult do you think it will be to re-create?
