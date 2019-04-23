@@ -18,7 +18,8 @@
      * Yearly Benefit/Cost Breakdown
      * Return on Investment Breakdown
      * Solar System that Fits You
-     * Vendor & Installer Connection 
+     * Vendor & Installer Connection
+     * Acquiring a Solar Loan 
 * Helpful Links
 * About Us 
 * Contact Us 
