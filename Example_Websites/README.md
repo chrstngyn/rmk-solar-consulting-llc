@@ -15,7 +15,11 @@
 * Provided Services
      * Investment Breakdown
      * Payback Period Breakdown
-     * ROI 
+     * Yearly Benefit/Cost Breakdown
+     * Return on Investment Breakdown
+     * Solar System that Fits You
+     * Vendor & Installer Connection 
+* Helpful Links
 * About Us 
 * Contact Us 
       
