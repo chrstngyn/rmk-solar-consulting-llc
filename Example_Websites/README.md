@@ -11,7 +11,7 @@
 * Consulting Areas
      * Residential Solar
      * Commercial Solar
-     * Utility Solar
+     * Utility-Scale Solar
 * Provided Services
      * Investment Breakdown
      * Payback Period Breakdown
