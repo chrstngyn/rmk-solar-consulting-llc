@@ -6,4 +6,18 @@
 
 1. http://californiasolarconsulting.com/
 
-      * I like this one. How difficult do you think it will be to re-create?
+      
+###### The tabs I want are as follows: 
+* Home 
+* Solar Terms
+* Consulting Areas
+     * Residential Solar
+     * Commercial Solar
+     * Utility Solar
+* Provided Services
+     * Investment Breakdown
+     * Payback Period Breakdown
+     * ROI 
+* About Us 
+* Contact Us 
+      
