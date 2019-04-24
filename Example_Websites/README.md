@@ -3,6 +3,8 @@
 #### Example websites:
 
 1. http://californiasolarconsulting.com/
+2. https://uibreakfast.com/
+3. https://simpleprogrammer.com/
 
       
 #### The tabs I want are as follows: 
