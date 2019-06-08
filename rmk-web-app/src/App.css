@@ -1,14 +1,32 @@
-:root {
-  --off-white: #fafafa;
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans&display=swap');
+
+.App {
+  background-image: url(https://images.unsplash.com/photo-1463173904305-ba479d2123b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2026&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
+
+html, body {
+  font-family: 'News Cycle', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+}
+
 .nav {
-  background-color: var(--off-white);
+  background: rgba(0,0,0,0.05);
   position: sticky;
   top: 0px;
   width: 100%;
   height: 80px;
   z-index: 1000;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  /*box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);*/
 }
 
 .nav-logo {
@@ -21,27 +39,71 @@
 }
 
 .nav .nav-content {
-  max-width: 900px;
-  padding: 0rem 3rem;
-  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 8px;
+  padding-right: 40px;
   height: 100%;
+  list-style: none;
+  justify-content: flex-end;
 }
 
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: #333;
+  color: ghostwhite;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.nav-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: ghostwhite;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .nav-item:hover {
-  color: black;
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px navajowhite;
   cursor: pointer;
 }
 
-.section {
+.nav-item:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.section h1 {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+  font-family: 'News Cycle', sans-serif;
+}
+
+h1 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.section p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .section-dark {
@@ -53,4 +115,17 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
+}
+
+#section1 {
+  height: 90vh;
+  text-align: center;
+  position: relative;
+  transform: translate(0%, 25%);
+}
+
+#section1 h1 {
+  letter-spacing: 0.2em;
+  border: 2.5px solid ghostwhite;
+  padding: 20px;
 }

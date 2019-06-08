@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Section
-            title="RMK Solar Consulting LLC"
+            title="RMK Solar Consulting, LLC"
             dark={true}
             id="section1"
         />
