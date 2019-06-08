@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader';
-
 // import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar"
 import Section from "./components/Section"
+import AboutUs from "./components/AboutUs"
 import dummyText from "./dummyText"
 
 class App extends Component {
@@ -14,6 +13,7 @@ class App extends Component {
         <NavBar />
         <Section
             title="RMK Solar Consulting, LLC"
+            subtitle="This is placeholder text for this LLC."
             dark={true}
             id="section1"
         />
@@ -41,9 +41,14 @@ class App extends Component {
               dark={true}
               id="section5"
           />
-          <Section
+          <AboutUs
               title="About Us"
-              subtitle={ dummyText }
+              title1="Rodney Kizito"
+              occupation1="PhD Student, University of Tennessee"
+              description1="This is a placeholder for a description"
+              title2="First Last"
+              occupation2="PhD Student, University of Tennessee"
+              description2="This is a placeholder for a description"
               dark={true}
               id="section6"
           />

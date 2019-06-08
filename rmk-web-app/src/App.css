@@ -87,7 +87,7 @@ html, body {
   transform: scaleX(1);
 }
 
-.section h1 {
+.section {
   width: 100%;
   padding: 0 7%;
   display: table;
@@ -112,7 +112,7 @@ h1 {
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px;
 }
@@ -128,4 +128,14 @@ h1 {
   letter-spacing: 0.2em;
   border: 2.5px solid ghostwhite;
   padding: 20px;
+}
+
+#section1 p {
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+.row {
+  float: left;
+  padding-right: 100px;
 }
