@@ -9,7 +9,14 @@
 
       
 #### The tabs I want are as follows: 
-* Home 
+* Home
+* Solar Energy and You
+      * What is Solar Energy?
+      * Why does Solar Energy Matter?
+      * Ready to Invest in Solar Energy?
+            * Average energy cost savings for client state when client invests in solar energy    
+            * Environemntal benefits for client state when client invests in solar energy
+                  * All client inputs into website is their state location, average monthly bill, name and email
 * Solar Terms
 * Consulting Areas
      * Residential Solar
