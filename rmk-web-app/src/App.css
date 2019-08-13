@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle|Open+Sans&display=swap');
 
 .App {
-  background-image: url(https://images.unsplash.com/photo-1463173904305-ba479d2123b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2026&q=80);
+  background-color: black;
+  background-image: url(https://www.zunroof.com/blog/wp-content/uploads/2018/07/space-based-solar-system.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -29,12 +30,20 @@ html, body {
   /*box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);*/
 }
 
-.nav-logo {
-  height: 60px;
-  width: 60px;
+.logo-container {
+  width: 300px;
+  height: 300px;
+  float: left;
 }
 
-.nav-logo:hover {
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  align-content: center;
+}
+
+.logo:hover {
   cursor: pointer;
 }
 
@@ -126,8 +135,11 @@ h1 {
 
 #section1 h1 {
   letter-spacing: 0.2em;
-  border: 2.5px solid ghostwhite;
-  padding: 20px;
+  /*border: 2.5px solid ghostwhite;*/
+  /*padding-bottom: 20px;*/
+  /*flex-direction: row;*/
+  float: right;
+  padding-top: 100px;
 }
 
 #section1 p {
@@ -137,5 +149,60 @@ h1 {
 
 .row {
   float: left;
-  padding-right: 100px;
+  padding-right: 50px;
+}
+
+.nav-item:hover .subnav {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subnav {
+  display: none;
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 265px;
+  width: 180px;
+}
+
+.nav-item:hover .subnav-1 {
+  display: block;
+}
+
+.subnav-1 {
+  display: none;
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 100px;
+  width: 180px;
+}
+
+.nav-item:hover .subnav-3 {
+  display: block;
+}
+
+.subnav-3 {
+  display: none;
+  font-weight: 300;
+  text-transform: none;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 400px;
+  width: 180px;
+}
+
+li {
+  margin: 10px 0;
 }
